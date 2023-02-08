@@ -20,6 +20,8 @@
 		4E2750AD299176BD00CC7DE3 /* timer-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E2750A8299176BD00CC7DE3 /* timer-sound.mp3 */; };
 		4E2750AE299176BD00CC7DE3 /* wrong-answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E2750A9299176BD00CC7DE3 /* wrong-answer.mp3 */; };
 		4E2750AF299176BD00CC7DE3 /* otvet-prinyat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E2750AA299176BD00CC7DE3 /* otvet-prinyat.mp3 */; };
+		6F35CF8728AED42300133420 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CF8528AED42300133420 /* QuestionViewController.swift */; };
+		6F35CF8828AED42300133420 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F35CF8628AED42300133420 /* QuestionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		4E2750A8299176BD00CC7DE3 /* timer-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "timer-sound.mp3"; sourceTree = "<group>"; };
 		4E2750A9299176BD00CC7DE3 /* wrong-answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "wrong-answer.mp3"; sourceTree = "<group>"; };
 		4E2750AA299176BD00CC7DE3 /* otvet-prinyat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "otvet-prinyat.mp3"; sourceTree = "<group>"; };
+		6F35CF8528AED42300133420 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		6F35CF8628AED42300133420 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				4E27508E299175C100CC7DE3 /* Main.storyboard */,
+				6F35CF8628AED42300133420 /* QuestionViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		4E2750A42991764F00CC7DE3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6F35CF8528AED42300133420 /* QuestionViewController.swift */,
 				4E27508C299175C100CC7DE3 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -202,6 +208,7 @@
 				4E2750AF299176BD00CC7DE3 /* otvet-prinyat.mp3 in Resources */,
 				4E275090299175C100CC7DE3 /* Main.storyboard in Resources */,
 				4E2750AC299176BD00CC7DE3 /* correct-answer.mp3 in Resources */,
+				6F35CF8828AED42300133420 /* QuestionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 			files = (
 				4E27508D299175C100CC7DE3 /* ViewController.swift in Sources */,
 				4E2750A02991761B00CC7DE3 /* Question.swift in Sources */,
+				6F35CF8728AED42300133420 /* QuestionViewController.swift in Sources */,
 				4E275089299175C100CC7DE3 /* AppDelegate.swift in Sources */,
 				4E2750A22991763B00CC7DE3 /* QuestionBrain.swift in Sources */,
 				4E27508B299175C100CC7DE3 /* SceneDelegate.swift in Sources */,
